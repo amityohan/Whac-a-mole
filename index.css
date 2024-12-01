@@ -2,13 +2,12 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background: url("./mario-bg.jpg");
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 #board{
     width:540px;
     height: 540px;
-    /* background-color: green; */
     margin: 0 auto ;
     display: flex;
     flex-wrap: wrap;
@@ -27,4 +26,15 @@ body{
 #board div img{
     width:100px;
     height:100px;
+}
+
+#restart{
+    background-color: yellowgreen;
+    border-color: aliceblue;
+    height:30px;
+    width: 180px;
+    margin-top: 20px;   
+    border-radius: 5px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
